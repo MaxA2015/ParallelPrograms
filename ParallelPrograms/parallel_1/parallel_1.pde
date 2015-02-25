@@ -23,13 +23,13 @@ void setup() { //instructions here are carried out once at the start
 
 void draw() { //instructions in here are carried out in order, then repeated
 
-  y1 = (m*x1 + c) * 2;
-  y2 = (m*x2 + c) * 2;
+  y1 = (m*x1 + c);
+  y2 = (m*x2 + c);
 
   stroke(255, 100, 100);
   line(x1, y1, x2, y2);
 
-  c = c + 20;
+  c = c + 40;
   println(c);
 }
 
